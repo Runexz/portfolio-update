@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runexz/portfolio-update.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Runexz/portfolio-update/issues"
+  },
+  "homepage": "https://github.com/Runexz/portfolio-update#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
