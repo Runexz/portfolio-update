@@ -1,39 +1,65 @@
 /* style.css */
-body {
-    background: rgb(253, 253, 253);
-}
 
 .item1 {
     height: 100vh;
-    position: relative;
-    background: lightgray;
-    text-align: center;
-    font-size: 3em;
+    background: #eeeeee;
   }
 
+  .navbar-inner {
+    color: black;
+  }
+
+  /* container with intro pic and paragraph centering to the page for index.html */
+.aboutMe {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.scrolling {
+  color: #642222;
+  position: relative;
+  -webkit-animation-name: scrollDown; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: scrollDown;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-iteration-count: 2;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scrollDown {
+  0%   {color:#805050; left:0px; top:0px;}
+  25%  {color:#c29898; left:0px; top:100px;}
+  50%  {color:#e1e1eb; left:0px; top:200px;}
+  75%  {color:#965853; left:0px; top:100px;}
+  100% {color:#701f1f; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes scrollDown {
+  0%   {color:#805050; left:0px; top:0px;}
+  25%  {color:#c29898; left:0px; top:100px;}
+  50%  {color:#e1e1eb; left:0px; top:200px;}
+  75%  {color:#965853; left:0px; top:100px;}
+  100% {color:#701f1f; left:0px; top:0px;}
+}
+
   .item2 {
-    width: 100%;
     height: 100vh;
-    position: relative;
-    background: lightblue;
-    text-align: center;
-    font-size: 3em;
+    background: #eeeeee;
+  }
+
+  .mLogo {
+    height: 100px;
+    width: 250px;
   }
   
   .item3 {
-    width: 100%;
     height: 100vh;
-    position: relative;
     background: tan;
-    text-align: center;
-    font-size: 3em;
   }
 
   .item4 {
-    width: 100%;
     height: 100vh;
-    position: relative;
     background: rgb(235, 224, 131);
-    text-align: center;
-    font-size: 3em;
   }
