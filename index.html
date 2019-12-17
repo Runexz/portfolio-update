@@ -14,19 +14,8 @@
 </head>
 
 <body>
-    <!-- <div class="item1" data-aos="zoom-in-up" data-aos-duration="3000">
-    </div>
 
-    <div class="item2" data-aos="zoom-out" data-aos-duration="3000">
-    </div>
-
-    <div class="item3" data-aos="fade-right" data-aos-duration="3000">
-    </div>
-
-    <div class="item4" data-aos="fade-left" data-aos-duration="3000">
-    </div> -->
-
-    <div class="item1">
+    <div class="item1 container-fluid mb-5">
         <div class="container">
             <nav class="navbar navbar-inner navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">Ricardo Rodriguez</a>
@@ -37,23 +26,23 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto mt-2">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#moreSkills">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contactB">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
 
-        <div class="container aboutMe" data-aos="zoom-in-up" data-aos-duration="3000">
+        <div class="container mb-5 mt-5" data-aos="zoom-in-up" data-aos-duration="3000">
             <div class="display-4">Introduction</div>
             <hr>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-sm-12 col-md-4 col-lg-4">
                     <img src="./assets/images/movieindex.jpeg" class="img-fluid"
                         alt="Picture of Ricardo at the movies standing next to a statue of The Predator">
@@ -80,14 +69,15 @@
 
     </div>
 
-    <div class="item2">
-        <div class="container display-4 pt-5">
+    <div class="item2 container-fluid" id="moreSkills">
+
+        <div class="container display-4 pt-5" data-aos="fade-zoom-in" data-aos-delay="300">
             More Skills
-        <hr>
+            <hr>
         </div>
 
         <div class="container">
-            <div class="row pt-5 pb-3" data-aos="fade-right" data-aos-duration="3000">
+            <div class="row pt-5 pb-3" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="300">
                 <div class="col">
                     <img src="./assets/images/MongoDB_Logo_FullColorBlack_RGB.png" alt="MongoDB logo" class="img-fluid">
                 </div>
@@ -99,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="row pt-5 pb-3" data-aos="fade-left" data-aos-duration="3000">
+            <div class="row pt-5 pb-3" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="300">
                 <div class="col">
                     <img src="./assets/images/mySqlLogo.png" alt="MySql logo" class="img-fluid">
                 </div>
@@ -111,7 +101,7 @@
                 </div>
             </div>
 
-            <div class="row pt-5" data-aos="fade-right" data-aos-duration="3000">
+            <div class="row pt-5 pb-5" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="300">
                 <div class="col">
                     <img src="./assets/images/jsonLogo.png" alt="Json logo" class="img-fluid">
                 </div>
@@ -123,11 +113,92 @@
                 </div>
             </div>
         </div>
+
+        <div class="container pt-3 pb-3 text-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">
+            <button>
+                <a href="#" class="resumeButton">Downloadable Resume</a>
+            </button>
+        </div>
+
     </div>
 
 
-    <div class="item3"></div>
-    <div class="item4"></div>
+    <div class="item3 pb-3 container-fluid" id="portfolio">
+
+        <div class="container display-4 pt-3" data-aos="fade-zoom-in" data-aos-delay="300">
+            Portfolio
+            <hr>
+        </div>
+
+        <div class="container img_container" data-aos="flip-left" data-aos-duration="3000" data-aos-delay="300">
+            <img src="./assets/images/memoryShot.png" alt="Memory Click Game screenshot" class="img-fluid img_source">
+            <div class="container img_overlay">
+                <div class="container img_text">
+                    <h5>Memory Click</h5>
+                    <p>A game using ReactJS to test the users memory.</p>
+                    <p>The user must click 1 of the 12 images just one time. There is a score tracker and will keep the
+                        highest score.</p>
+                    <br>
+                    <a class="btn btn-info mb-4" href="https://github.com/Runexz/memory-click"
+                        target="_blank">The code</a>
+                    <a class="btn btn-success mb-4" href="https://protected-oasis-51713.herokuapp.com/"
+                        target="_blank">Application</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" data-aos="flip-right" data-aos-duration="3000" data-aos-delay="300">
+            <img src="./assets/images/darstarShot.png" alt="Darstar screenshot" class="img-fluid">
+        </div>
+
+        <div class="container" data-aos="flip-left" data-aos-duration="3000" data-aos-delay="300">
+            <img src="./assets/images/burgerShot.png" alt="Feast of Burger screenshot" class="img-fluid">
+        </div>
+
+        <div class="container" data-aos="flip-right" data-aos-duration="3000" data-aos-delay="300">
+            <img src="./assets/images/scrapeShot.png" alt="Gaming Scrape screenshot" class="img-fluid">
+        </div>
+
+    </div>
+
+    <div class="item4 container-fluid" id="contactB">
+
+        <div class="container pb-5">
+            <div class="container text-white h3 pt-4">
+                Contact Information
+            </div>
+
+            <div class="row mt-5" data-aos="zoom-out-left" data-aos-duration="3000" data-aos-delay="300">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="./assets/images/github-logo.png" alt="Github logo" class="contactSize float-right">
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-12 h4 pt-2 contactLink">
+                    <a href="https://github.com/Runexz" class="linksColor">GitHub profile</a>
+                </div>
+            </div>
+
+            <div class="row mt-5" data-aos="zoom-out-right" data-aos-duration="3000" data-aos-delay="300">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="./assets/images/linkedin.png" alt="LinkedIn logo" class="contactSize float-right">
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-12 h4 pt-2 contactLink">
+                    <a href="https://www.linkedin.com/in/ricardo-rodriguez-webdev/" class="linksColor">LinkedIn
+                        profile</a>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="./assets/images/gmail.png" alt="Gmail logo" class="contactSize float-right">
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-12 h4 pt-1">
+                    <a href="mailto:Ricardo.webdevelopment@gmail.com?subject=Subject text"
+                        class="linksColor">Ricardo.webdevelopment@gmail.com</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
