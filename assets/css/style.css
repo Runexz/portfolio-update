@@ -1,19 +1,12 @@
 /* style.css */
 
 .item1 {
-    height: 100vh;
     background: #eeeeee;
   }
 
   .navbar-inner {
     color: black;
   }
-
-  /* container with intro pic and paragraph centering to the page for index.html */
-.aboutMe {
-  margin-top: 90px;
-  margin-bottom: 90px;
-}
 
 .scrolling {
   color: #642222;
@@ -44,22 +37,89 @@
   100% {color:#701f1f; left:0px; top:0px;}
 }
 
-  .item2 {
-    height: 100vh;
+  /* .item2 {
     background: #eeeeee;
-  }
+  } */
+
+.resumeButton {
+  color: #ffffffff !important;
+  text-decoration: none;
+}
+
+button {
+  background-color: #520000;
+         border: none;
+         
+         padding: 20px 34px;
+         text-align: center;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+}
 
   .mLogo {
     height: 100px;
     width: 250px;
   }
-  
+
+  .contactBg {
+    background-color: #222222;
+  }
+
   .item3 {
-    height: 100vh;
-    background: tan;
+    background: #eeeeee;
+  }
+
+  .img_container {
+    position: relative;
+  }
+
+  .img_source {
+    display: block;
+  }
+
+  .img_overlay {
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #17191a;
+  }
+
+  .img_container:hover .img_overlay {
+    opacity: .8;
+  }
+
+  .img_text {
+    color: white;
+    top: 150px;
+    left: 570px;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
   }
 
   .item4 {
-    height: 100vh;
-    background: rgb(235, 224, 131);
+    background: #222222;
   }
+
+  /* resizing of github linkedin logo */
+.contactSize {
+  height: 50px;
+  width: 50px;
+}
+
+.linksColor {
+  text-decoration: none;
+  color: white;
+}
+
+.linksColor:hover {
+  color: white;
+}
