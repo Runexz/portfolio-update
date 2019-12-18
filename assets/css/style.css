@@ -70,20 +70,17 @@ button {
     background: #eeeeee;
   }
 
+  /* .img_source {
+    position: absolute;
+  } */
+
   .img_container {
     position: relative;
   }
 
-  .img_source {
-    display: block;
-  }
-
   .img_overlay {
-    position: absolute;
+  position: absolute;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -92,17 +89,7 @@ button {
   }
 
   .img_container:hover .img_overlay {
-    opacity: .8;
-  }
-
-  .img_text {
-    color: white;
-    top: 150px;
-    left: 570px;
-    font-size: 20px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    opacity: .9;
   }
 
   .item4 {
